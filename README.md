@@ -9,7 +9,7 @@ Android and Windows Phone use Classic Bluetooth.  iOS uses Bluetooth Low Energy.
 * Android
 * iOS with [RedBearLab](http://redbearlab.com) BLE hardware, [Adafruit Bluefruit LE](http://www.adafruit.com/products/1697), [Laird BL600](http://www.lairdtech.com/Products/Embedded-Wireless-Solutions/Bluetooth-Radio-Modules/BL600-Series/#.VBI7AS5dUzI), [BlueGiga](https://bluegiga.zendesk.com/entries/29185293--BGScript-spp-over-ble-AT-command-SPP-implementation-for-BLE), or [HC-02](http://www.hc01.com/productdetail?productid=20180314021)
 * Windows Phone 8
-* Browser (Testing only. See [comments](https://github.com/don/BluetoothSerial/blob/master/src/browser/bluetoothSerial.js).)
+* Browser (Testing only. See [comments](https://github.com/htqbuu/buu-cordova-bluetooth/blob/master/src/browser/bluetoothSerial.js).)
 
 [Supporting other Bluetooth Low Energy hardware](#supporting-other-ble-hardware)
 
@@ -17,20 +17,20 @@ Android and Windows Phone use Classic Bluetooth.  iOS uses Bluetooth Low Energy.
 
  * The phone must initiate the Bluetooth connection
  * iOS Bluetooth Low Energy requires iPhone 4S, iPhone5, iPod 5, or iPad3+
- * Will *not* connect Android to Android[*](https://github.com/don/BluetoothSerial/issues/50#issuecomment-66405396)
- * Will *not* connect iOS to iOS[*](https://github.com/don/BluetoothSerial/issues/75#issuecomment-52591397)
+ * Will *not* connect Android to Android[*](https://github.com/htqbuu/buu-cordova-bluetooth/issues/50#issuecomment-66405396)
+ * Will *not* connect iOS to iOS[*](https://github.com/htqbuu/buu-cordova-bluetooth/issues/75#issuecomment-52591397)
 
 # Installing
 
 Install with Cordova cli
 
-    $ cordova plugin add cordova-plugin-bluetooth-serial
+    $ cordova plugin add buu-cordova-bluetooth
 
-Note that this plugin's id changed from `com.megster.cordova.bluetoothserial` to `cordova-plugin-bluetooth-serial` as part of the migration from the [Cordova plugin repo](http://plugins.cordova.io/) to [npm](https://www.npmjs.com/).
+Note that this plugin's id changed from `com.megster.cordova.bluetoothserial` to `buu-cordova-bluetooth` as part of the migration from the [Cordova plugin repo](http://plugins.cordova.io/) to [npm](https://www.npmjs.com/).
 
 # Examples
 
-There are some [sample projects](https://github.com/don/BluetoothSerial/tree/master/examples) included with the plugin.
+There are some [sample projects](https://github.com/htqbuu/buu-cordova-bluetooth/tree/master/examples) included with the plugin.
 
 # API
 
@@ -676,7 +676,7 @@ Current development is done with Cordova 4.2 on Android 5. Theoretically this co
 
 Development Devices include
  * Nexus 5 with Android 5
- * Samsung Galaxy Tab 10.1 (GT-P7510) with Android 4.0.4 (see [Issue #8](https://github.com/don/BluetoothSerial/issues/8))
+ * Samsung Galaxy Tab 10.1 (GT-P7510) with Android 4.0.4 (see [Issue #8](https://github.com/htqbuu/buu-cordova-bluetooth/issues/8))
  * Google Nexus S with Android 4.1.2
  * Nexus 4 with Android 5
  * Samsung Galaxy S4 with Android 4.3
@@ -699,7 +699,7 @@ For Bluetooth Low Energy, this plugin supports some hardware running known UART-
 
 Edit [BLEdefines.h](src/ios/BLEDefines.h) and adjust the UUIDs for your service.
 
-See [Issue 141](https://github.com/don/BluetoothSerial/issues/141#issuecomment-161500473) for details on how to add support for Amp'ed RF Technology BT43H.
+See [Issue 141](https://github.com/htqbuu/buu-cordova-bluetooth/issues/141#issuecomment-161500473) for details on how to add support for Amp'ed RF Technology BT43H.
 
 ## Props
 

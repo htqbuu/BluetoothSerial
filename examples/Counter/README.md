@@ -4,7 +4,7 @@ Simple Bluetooth Example. Arduino increments a counter and sends the value over 
 
 Some assembly required.
 
-I'll assume you've cloned https://github.com/don/BluetoothSerial into ~/BluetoothSerial
+I'll assume you've cloned https://github.com/htqbuu/buu-cordova-bluetooth into ~/BluetoothSerial
 
 Copy the chat example to a new directory.  
 
@@ -22,7 +22,7 @@ Hardware
 
 ### Upload the sketch
 
-Upload the [sketch](https://github.com/don/BluetoothSerial/blob/master/examples/Counter/Arduino/Counter/Counter.ino) to your Uno using the Arduino IDE.
+Upload the [sketch](https://github.com/htqbuu/buu-cordova-bluetooth/blob/master/examples/Counter/Arduino/Counter/Counter.ino) to your Uno using the Arduino IDE.
 
 ### Pair your phone
 
@@ -45,7 +45,7 @@ Edit [assets/www/js/index.js](http://github.com/don/BluetoothSerial/examples/LED
 ### Install Platform and Plugin
 
     $ cordova platform add android
-    $ cordova plugin add cordova-plugin-bluetooth-serial
+    $ cordova plugin add buu-cordova-bluetooth
 
 ### Build and Deploy
 

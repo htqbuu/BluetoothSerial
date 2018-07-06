@@ -4,7 +4,7 @@ This example program demonstrates using the Bluetooth Serial Cordova plugin for 
 
 Some assembly required.
 
-I'll assume you've cloned https://github.com/don/BluetoothSerial into ~/BluetoothSerial
+I'll assume you've cloned https://github.com/htqbuu/buu-cordova-bluetooth into ~/BluetoothSerial
 
 Copy the chat example to a new directory.  
 
@@ -22,7 +22,7 @@ Adding platforms generates the native projects
 
 Install the Bluetooth Serial plugin with cordova
 
-    $ cordova plugin add cordova-plugin-bluetooth-serial
+    $ cordova plugin add buu-cordova-bluetooth
 
 This code requires an Android device since the emulator does not support Bluetooth. Pair your Android device the Bluetooth modem running on the Arduino.
 

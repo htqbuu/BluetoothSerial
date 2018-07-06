@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-bluetooth-serial",
-  "version": "0.4.7",
+  "name": "buu-cordova-bluetooth",
+  "version": "1.0.0",
   "description": "Bluetooth Serial Communication Plugin",
   "main": "./www/bluetoothSerial.js",
   "cordova": {
-    "id": "cordova-plugin-bluetooth-serial",
+    "id": "buu-cordova-bluetooth",
     "platforms": [
       "android",
       "ios",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/don/BluetoothSerial.git"
+    "url": "git+https://github.com/htqbuu/buu-cordova-bluetooth.git"
   },
   "keywords": [
     "cordova",
@@ -26,7 +26,7 @@
   "author": "Don Coleman <don.coleman@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/don/BluetoothSerial/issues"
+    "url": "https://github.com/htqbuu/buu-cordova-bluetooth/issues"
   },
-  "homepage": "https://github.com/don/BluetoothSerial#readme"
+  "homepage": "https://github.com/htqbuu/buu-cordova-bluetooth#readme"
 }

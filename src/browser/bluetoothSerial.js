@@ -1,7 +1,7 @@
 // This implementation is for testing in the brower. Future implemetations *might* be able to use
 // Chrome Bluetooth APIs https://developer.chrome.com/apps/bluetooth or Web Bluetooth.
 
-// Code from PhracturedBlue https://github.com/don/BluetoothSerial/issues/115
+// Code from PhracturedBlue https://github.com/htqbuu/buu-cordova-bluetooth/issues/115
 
 // When using the browser, it is necessary to have a processing function that
 // can emulate the bluetooth device.

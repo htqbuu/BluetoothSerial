@@ -87,7 +87,7 @@ var app = {
         devices.forEach(function(device) {
             listItem = document.createElement('li');
             listItem.className = "topcoat-list__item";
-            if (device.hasOwnProperty("uuid")) { // TODO https://github.com/don/BluetoothSerial/issues/5
+            if (device.hasOwnProperty("uuid")) { // TODO https://github.com/htqbuu/buu-cordova-bluetooth/issues/5
                 deviceId = device.uuid;
             } else if (device.hasOwnProperty("address")) {
                 deviceId = device.address;
